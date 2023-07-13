@@ -13,6 +13,10 @@ class TestPyInspectionTool: LocalInspectionTool() {
     // the inspection can be applicable
     private val subprocessFunctions = listOf("call", "run", "Popen")
 
+    override fun getGroupDisplayName(): String {
+        return "Unemployed"
+    }
+
     override fun buildVisitor(holder: ProblemsHolder, isOnTheFly: Boolean): PsiElementVisitor {
         return object : PyElementVisitor() {
 

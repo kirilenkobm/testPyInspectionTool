@@ -23,13 +23,12 @@
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-        <localInspection
-                language="Python"
-                groupPath="Python,Code style issues"
-                shortName="UnsafeSubprocessCall"
-                displayName="Unsafe subprocess call"
-                level="WEAK_WARNING"
-                enabledByDefault="true"
-                implementationClass="com.example.testpyinspectiontool.TestPyInspectionTool" />
+        <localInspection language="Python"
+                         groupPath="Python,Unemployed"
+                         shortName="MyInspection"
+                         displayName="My inspection"
+                         level="WARNING"
+                         enabledByDefault="true"
+                         implementationClass="com.example.testpyinspectiontool.TestPyInspectionTool"/>
     </extensions>
 </idea-plugin>

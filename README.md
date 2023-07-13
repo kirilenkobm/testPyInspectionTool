@@ -1,7 +1,8 @@
 # testPyInspectionTool WIP
 
 Far from perfect.
-Could not build it for PyCharm for now.
+At least it starts PyCharm, but the plugin does not work.
+Seems like some java issues.
 
 I am just learning how to make inspections for Python code compatible with PyCharm.
 Not sure whether this inspection is useful, but the idea is to catch the situation where subprocess is used in the following way:
